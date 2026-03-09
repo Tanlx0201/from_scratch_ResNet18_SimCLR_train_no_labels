@@ -72,10 +72,7 @@ def get_dataloaders(
     download: bool = True,
     use_cuda: Optional[bool] = None,
 ):
-    """
-    Supervised dataloaders (train/test) — giữ lại để khi bạn muốn train có nhãn.
-    IMPORTANT: tự resolve root để đọc được ./data/STL-10/stl10_binary/...
-    """
+    
     if num_workers is None:
         num_workers = _default_num_workers()
 

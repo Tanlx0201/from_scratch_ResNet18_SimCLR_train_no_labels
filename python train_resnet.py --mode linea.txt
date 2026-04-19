@@ -1,2 +1,0 @@
-python train_resnet.py --mode linear-eval --ckpt ./checkpoints/simclr_epoch_200.pt --data-root ./data --num-workers 0 --linear-epochs 20
-python train_resnet.py --mode simclr --dataset stl10 --data-root ./data --batch-size 512 --num-workers 1 --log-every 50 --save-every 10
